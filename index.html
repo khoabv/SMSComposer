@@ -1,23 +1,23 @@
 <!DOCTYPE html>
+<!--URL: https://github.com/phonegap/phonegap-plugins/tree/master/iPhone/SMSComposer -->
 <html>
   <head>
     <meta name="viewport" content="width=default-width; user-scalable=no" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
-    <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
-
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8" src="SMSComposer.js"></script>
     <script type="text/javascript" charset="utf-8">
 
 		function onBodyLoad()
 		{
-		document.addEventListener("deviceready",onDeviceReady,false);
+			document.addEventListener("deviceready",onDeviceReady,false);
 		}
 		function onDeviceReady()
 		{
-		//viewUpdate();
-		navigator.notification.alert("Ready");
-
+			//viewUpdate();
+			navigator.notification.alert("Ready");
+	
 		}
 	</script>
 </head>
